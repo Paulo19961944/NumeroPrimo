@@ -12,7 +12,7 @@ public class Primo {
         if (teclado.hasNextInt()) {
             int numero = teclado.nextInt();
             System.out.println();
-            
+
             /** Verifica se o numero é primo */
             boolean primo = true;
             if (numero <= 1) {
